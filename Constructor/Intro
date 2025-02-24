@@ -1,0 +1,23 @@
+Costructor does not have the return type, these are just like methods it has name
+The constructor name same as the class name
+There is no need of calling the constructor it is called automatically by creating the object 
+
+Constructors are two types
+    1.Default   
+        -A constructor that has no parameters is known as default the constructor.
+        -If there is no constructor in a class, compiler automatically creates a default constructor.
+
+        Ex:
+                class bike {              class bike {
+                                ------>       bike() {}
+                }                         }
+
+        -The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type.
+    2.Parametarized
+        -A constructor which has a specific number of parameters is called a parameterized constructor.
+        -If we want to initialize fields of the class with our own values, then use a parameterized constructor.
+        -The parameterized constructor is used to provide different values to distinct objects. However, you can provide the same values also.
+
+
+*Every constructor by default consist of super() method without mentioning.
+ And if we want to call the parameterized constructor we have to mention super(parameters) by explicitly.

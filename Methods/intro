@@ -1,0 +1,8 @@
+Methods are the block of code which can be re used.
+In this methods are two four types 
+    1.Without return and parameter
+    2.without return and with parameter
+    3.with return type and without parameter
+    4.with return type and with parameter
+If we dont want anything in return then we use 'void'
+If we want anything in return then we use 'int', 'double' and 'String'

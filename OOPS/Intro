@@ -1,0 +1,21 @@
+In object oriented programming it takes all things as object.
+This OOPS concept is basically to solve the Real world problems using the Virtual world.
+
+Object - Object has the Properties and behaviors.
+Generally to create the object we have to create the class.
+
+class - In programming class can act as the blue print
+        We can say design
+
+*The class file or the blue print is compiled to create the byte code and it is given to the JVM to create the Object.
+
+Object creation -
+
+            Ex:    demo d = new demo();
+                   d.add();
+
+    ~ Basically for the object creation we give the 'new' keyword
+    ~ For the object creation we will tell the JVM to create the new object but the JVM asks the Design for it and here the design is
+      nothing but the class(demo())
+    ~ And this object is assigned to the variable d.
+                

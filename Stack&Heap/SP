@@ -1,0 +1,53 @@
+In the JVM the stack and Heap memory will present.
+Stack:
+    -Stack has 2 columns and multiple rows
+    -In the first column it has the variable name and in the second column it has the value
+    -Each method has the seperate Stack for it and it stores the local variables in the stack but no the instance variable.
+
+Heap:
+    -The object is created in the Heap memory.
+    -It also stores the instance variable.
+
+
+class sp {
+    int num = 10;                                     //Instance variable
+    public int add(int n1,int n2) {
+        System.out.println(num);                      //Here n1,n2 are local variables
+        int r = n1+n2;
+        return r;
+    }
+    public static void main(String a[]) {
+        sp obj = new sp();
+        sp obj1 = new sp();
+        int result = obj.add();
+        System.out.println(result);
+        obj1.add();
+    }
+}
+
+Stack:
+
+    In the above code it creates the two stacks one is add() method stack and other is main() method stack.
+
+        add():it stores the two variables n1,n2
+        main():it stores reference variables obj,obj1 and result varible and add() method.
+
+Heap:
+
+    Here the objects are created in the Heap memory.
+    Instance variable 'num' is created in the heap memory.
+    Eech object have the different address and given to the stack
+    Hence there exists a relation between the stack and the heap memory.
+
+
+    obj = 101  
+    obj1 = 102     //address
+
+
+
+
+
+
+
+
+    
